@@ -9,7 +9,8 @@
 
 int main(void)
 {
-	int n, *pn;
+	int n;
+	int *pn;
 
 	n = 402;
 	pn = &n;
