@@ -2,21 +2,21 @@
 #include "main.h"
 
 /**
- * main - pointer function to update the value of variable.
+ * reset_to_98 - pointer function to update the value of variable.
  *
  * Return: Always 0.
  */
 
-void reset_to_98(int *n)
+void reset_to_98(void)
 {
-	int n;
-	int *pn;
+	int pn;
+	int *n;
 
-	n = 402;
-	pn = &n;
+	pn = 402;
+	n = &pn;
 
-	*pn = 98;
+	*n = 98;
 
-	return (0);
+	return (void);
 
 }
