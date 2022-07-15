@@ -4,19 +4,19 @@
 /**
  * _abs - a function that computes the absolute value
  *
- * Returns: Always 0.
+ * Returns: Always absolute value.
  */
 
-int _abs(int)
+int _abs(int n)
 {
-	int n;
-
-	if (n < 0)
+	if (n > 0)
+	{
+		return (n);
+	}
+	else if (n < 0)
 	{
 		return (-n);
 	}
-	else if (n > 0)
-		return (n);
 
 	return (0);
 }
