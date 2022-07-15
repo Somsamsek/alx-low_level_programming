@@ -3,8 +3,8 @@
 
 /**
  * _abs - a function that computes the absolute value
- *
- * Returns: Always absolute value.
+ * @n: integer argument.
+ * Return: Always absolute value.
  */
 
 int _abs(int n)
