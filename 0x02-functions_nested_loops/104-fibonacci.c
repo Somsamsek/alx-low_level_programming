@@ -14,7 +14,7 @@ int main(void)
 
 	printf("%li, %li, ", a, b);
 
-	for ( i = 1; i <= 96; i++)
+	for (i = 1; i <= 96; i++)
 	{
 		fib = a + b;
 
