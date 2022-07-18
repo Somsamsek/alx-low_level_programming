@@ -26,5 +26,7 @@ int main(void)
 		b = fib;
 	}
 
+	printf("\n");
+
 	return (0);
 }
