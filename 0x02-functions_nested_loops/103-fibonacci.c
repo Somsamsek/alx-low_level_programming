@@ -7,24 +7,21 @@
 
 int main(void)
 {
-	long sum;
 	long fib;
 	long a = 1;
 	long b = 2;
+	long sum = b;
 
-	do
-	{
+	do {
 		fib = a + b;
 
 		if ((fib % 2) == 0)
 		{
 			sum += fib;
 		}
-		
 		a = b;
 		b = fib;
-	}
-	while (fib < 4000000);
+	} while (fib <= 4000000);
 
 	printf("%li\n", sum);
 
