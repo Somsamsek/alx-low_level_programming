@@ -12,7 +12,7 @@ int main(void)
 	unsigned long b = 2;
 	unsigned long fib;
 
-	printf("%li, %li, ", a, b);
+	printf("%lu, %lu, ", a, b);
 
 	for (i = 1; i <= 96; i++)
 	{
@@ -26,7 +26,7 @@ int main(void)
 		b = fib;
 	}
 
-	printf("\n");
+	printf("\n\n");
 
 	return (0);
 }
