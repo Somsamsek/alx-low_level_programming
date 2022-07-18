@@ -8,19 +8,26 @@
 int main(void)
 {
 	int i;
-	int count_to = 50;
+	long fib;
 	long a = 1;
 	long b = 2;
 
-	for (i = 1; i <= (count_to / 2); i++)
-	{
-		printf("%li %li", a, b);
-		a += b;
-		b += a;
-	}
-	if ((count_to % 2) == 1)
-		printf("%li", a);
+	printf("%li, %li, ", a, b);
 
+	for (i = 1; i <= 48; i++)
+	{
+		fib = a + b;
+		if ( i == 48)
+		{
+			printf("%li", fib);
+		}
+		else
+		{
+			printf("%li, ", fib);
+		}
+		a = b;
+		b = fib;
+	}
 	printf("\n");
 
 	return (0);
