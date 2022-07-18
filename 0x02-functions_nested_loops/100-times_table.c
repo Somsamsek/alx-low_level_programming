@@ -20,14 +20,11 @@ void print_times_table(int n)
 				p = r * c;
 
 				if (c == 0)
-				{
 					_putchar('0' +  p);
-				}
 				else
 				{
 					_putchar(',');
 					_putchar(' ');
-
 					if (p <= 9)
 					{
 						_putchar(' ');
