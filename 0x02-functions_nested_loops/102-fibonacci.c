@@ -17,7 +17,7 @@ int main(void)
 	for (i = 1; i <= 48; i++)
 	{
 		fib = a + b;
-		if ( i == 48)
+		if (i == 48)
 		{
 			printf("%li", fib);
 		}
