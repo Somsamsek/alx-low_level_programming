@@ -22,17 +22,19 @@ void print_diagonal(int n)
 			if (i == 1)
 			{
 				_putchar('\\');
+				_putchar('\n');
 			}
 			else
 			{
 				int space;
 
-				for (space = 1; space <= i; space++)
+				for (space = 1; space < i; space++)
 				{
 					_putchar(' ');
 				}
 
 				_putchar('\\');
+				_putchar('\n');
 			}
 		}
 
