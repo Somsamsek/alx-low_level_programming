@@ -26,7 +26,7 @@ void print_triangle(int size)
 				_putchar('#');
 
 				count++;
-			}; while (count < row)
+			} while (count < row);
 
 			_putchar('\n');
 		}
