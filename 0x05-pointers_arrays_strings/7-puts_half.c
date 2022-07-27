@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * puts_half(char *str) - a function that prints half of a string
+ * puts_half - a function that prints half of a string
  * if odd len, n = (length_of_the _string - 1) / 2
  * @str: input
  * Return: half of input
