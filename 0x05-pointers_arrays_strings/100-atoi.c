@@ -75,7 +75,7 @@ int find_sign(char *s)
 
 int _atoi(char *s)
 {
-	int idx_digit_starts = (idx_num_start(s));
+	int idx_digit_starts = (idx_num_starts(s));
 	int sign;
 	int digits_to_print = 0;
 	int t = 1, i;
