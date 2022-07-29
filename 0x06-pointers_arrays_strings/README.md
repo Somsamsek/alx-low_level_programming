@@ -1,0 +1,1 @@
+This is the 7th project in the C track. Focusing on more pointers and arrays. It's too deepen my understanding of pointers and arrays. A foundational concept in C programming and some other m;odern programming languages.
