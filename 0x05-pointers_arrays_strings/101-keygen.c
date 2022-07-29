@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 
 /**
  * main - a function that generates random passwords a program
@@ -9,5 +10,5 @@
 
 int main(void)
 {
-	return (rand());
+	return (srand(time(NULL)));
 }
