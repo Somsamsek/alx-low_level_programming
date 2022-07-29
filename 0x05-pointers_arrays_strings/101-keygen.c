@@ -9,7 +9,5 @@
 
 int rand(void)
 {
-	rand(101-crackme);
-
 	return (0);
 }
