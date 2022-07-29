@@ -9,3 +9,6 @@ void puts2(char *str);
 void puts_half(char *str);
 void print_array(int *a, int n);
 char *_strcpy(char *dest, char *src);
+int _atoi(char *s);
+int find_sign(char *s);
+int idx_num_starts(char *s);
