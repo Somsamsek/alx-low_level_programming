@@ -10,10 +10,8 @@
 
 int main(int argc, __attribute__((unused)) char *argv[])
 {
-	if (argc == 0)
-		printf("0");
-	else
-		printf("%d\n", argc);
+	if (argc > 0)
+		printf("%d\n", argc - 1);
 
 	return (0);
 }
