@@ -33,7 +33,7 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 			return (p);
 	}
 
-	p = mallloc(new_size); /* malloc and check error */
+	p = malloc(new_size); /* malloc and check error */
 
 	if (p == NULL)
 		return (NULL);
