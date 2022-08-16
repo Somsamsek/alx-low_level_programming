@@ -1,0 +1,1 @@
+This is the 15th project in the CProgramming learning track. It focuses on the preprocessor, preprocessor directives utilising conditional formatting, #defining MACROS and passing arguments through them.
