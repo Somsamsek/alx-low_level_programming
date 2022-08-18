@@ -12,7 +12,6 @@ typedef struct dog dog_t;
  * @age: dog age
  * @owner: dog owner
  */
-
 struct dog
 {
 	char *name;
@@ -24,7 +23,5 @@ void print_dog(struct dog *d);
 
 dog_t *new_dog(char *name, float age, char *owner);
 void free_dog(dog_t *d);
-int len(char *str);
-char *strcpy(char *dest, char *src);
 
 #endif /* DOG_H */
