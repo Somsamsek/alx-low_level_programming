@@ -27,7 +27,7 @@ int len(char *str)
  * Return: copy of original source
  */
 
-char *strcpy(char *dest, char *src)
+const char *strcpy(char *dest, char *src)
 {
 	int i;
 
