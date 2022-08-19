@@ -1,6 +1,5 @@
 #ifndef MAIN_H
 #define MAIN_H
-#include <stdlib.h> /* for NULL macro */
 
 int _putchar(char c);
 unsigned int binary_to_unit(const char *b);
