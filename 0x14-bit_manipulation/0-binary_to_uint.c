@@ -3,37 +3,32 @@
 #include <stdlib.h>
 
 /**
- * binary_to_unit - convert binary to unsigned int
+ * binary_to_uint - convert binary to unsigned int
  * @b: binary
  * Return: unsigned int
  */
 
 unsigned int binary_to_uint(const char *b)
 {
-	int len = 0, i;
-	unsigned int sum = 0;
+	unsigned int res = 0;
+	int base = 1, i = 0;
 
 	if (b == NULL)
-		return (sum);
+		return (0);
 
-	/* find string length */
-	while (b[len] != '\0')
-		len++;
-	len -= 1;
-
-	/* iterate string and if '1' then multiply by power of 2 */
-	/* get power of 2 via binary (e.g. 1<<2 = 100 in binary = 4) */
-	i = 0;
-	while (b[i])
+	while (b[i + 1])
 	{
-		if ((b[i] != '\0') && (b[i] != '1'))
-			return (sum);
-
-		if (b[i] == '1')
-			sum += (1 * (1 << len));
+		if (b[i] != '0' && b[i] != '1')
+			return (0);
 		i++;
-		len--;
 	}
 
-	return (sum);
+	while (i >= 0)
+	{
+		res += ((b[i] - '0') * base);
+		base *= 2;
+		i--;
+	}
+
+	return (res);
 }
