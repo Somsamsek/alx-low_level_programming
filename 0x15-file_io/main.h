@@ -8,6 +8,7 @@
 
 /* Close */
 #include <unistd.h>
+#include <stdlib.h>
 
 /* dprint */
 #include <stdio.h>
